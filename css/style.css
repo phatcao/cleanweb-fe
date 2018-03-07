@@ -62,7 +62,7 @@
     font-size: 13px;
     position: absolute;
     left: 1px;
-    bottom: -15px;
+    bottom: -10px;
 }
 
 .navbar-light .navbar-nav .nav-item {
@@ -145,7 +145,7 @@
 footer {
     margin-top: 30px;
     background-color: #ededed;
-    padding:30px 0;
+    padding-top:30px;
 }
 .footer-block .block-title {
     font-size: 20px;
@@ -157,6 +157,10 @@ footer {
     font-size: 12px;
     color: #989898;
     line-height: 1.1;
+}
+footer .link {
+    font-size: 12px;
+    color: #ff5d30;
 }
 .footer-block .email-bar {
     margin-bottom: 30px;
@@ -200,7 +204,37 @@ footer {
     color: #757575;
     margin-bottom: 15px;
 }
-.block .link {
+
+.block .link-social {
+    margin: 20px 0;
+    text-decoration: none;
+    
+}
+.block .link-social span {
+    color: #989898;
+    margin-left: 10px;
+}
+
+/*Sub-footer*/
+.sub-footer {
+    background-color: #e2e2e2;
+    padding: 25px 0;
     font-size: 12px;
-    color: #ff5d30;
+    color: #919191;
+}
+
+@media only screen and (max-width: 767px) { 
+    .sub-nav div {
+        text-align: center!important;
+    }
+    .list-links {
+        margin-bottom: 10px;
+    }
+    .email-bar input {
+        margin-bottom: 10px;
+    }
+    .sub-footer div {
+        float: none!important;
+        text-align: center;
+    }
 }
